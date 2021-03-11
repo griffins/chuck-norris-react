@@ -1,0 +1,15 @@
+{
+  "short_name": "React App",
+  "name": "SovTech Chuck Norris API",
+  "icons": [
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "67x67"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
