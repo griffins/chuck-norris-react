@@ -18,7 +18,7 @@ function App() {
         return data.jokes as JokesInterface
     });
 
-    const loader = data.isLoading && (<div className="loader">Loading...</div>);
+    const spinner = data.isLoading && (<div className="loader">Loading...</div>);
 
     return (
         <Router>
@@ -26,7 +26,7 @@ function App() {
                 <header className="App-header">
                     <img src={logo} className="SovTech-logo" alt="logo"/>
                     <h4>SovTech / api.chucknorris.io</h4>
-                    {loader}
+                    {spinner}
                 </header>
                 <Switch>
                     <Route path="/:category?" children={(<Jokes {...data}/>)}/>

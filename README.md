@@ -2,8 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+After cloning the repository run `yarn` to install project dependencies.
+
 If you want to use a custom GraphQL point for chuck-norris API create a new .env file in the root directory of this repository.
-Then add the env variable ```REACT_APP_API_ENDPOINT='your https endpoint'```. A .env.example is included. 
+
+Then add the env variable ```REACT_APP_API_ENDPOINT='your https endpoint'```.
+A file named .env.example is included copy it as .env for a quick start. 
 
 
 ## Available Scripts
