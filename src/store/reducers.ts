@@ -15,7 +15,7 @@ export const slice = createSlice({
             return { ...state, joke: action.payload }
         },
         setInDeterminateProgress: (state, action) => {
-            return { ...state, loading: action.payload }
+            return { ...state, isLoading: action.payload }
         }
     },
 });
