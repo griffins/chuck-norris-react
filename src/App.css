@@ -85,7 +85,7 @@
     width: 100%;
     text-align: center;
     min-height: 600px;
-    margin-left: 300px;
+    margin-left: 220px;
 }
 
 .App .Empty {
@@ -93,7 +93,7 @@
 }
 
 .Jokes .Empty {
-    margin-left: 300px;
+    margin-left: 220px;
 }
 
 .Jokes .Joke img {
