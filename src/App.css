@@ -65,7 +65,7 @@
 .Jokes ul li a {
     display: block;
     padding: 10px 10px;
-    min-width: 240px;
+    min-width: 220px;
 }
 
 .Jokes ul li:nth-child(1) {
