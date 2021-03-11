@@ -65,7 +65,7 @@
 .Jokes ul li a {
     display: block;
     padding: 10px 10px;
-    min-width: 220px;
+    min-width: 200px;
 }
 
 .Jokes ul li:nth-child(1) {
@@ -85,7 +85,7 @@
     width: 100%;
     text-align: center;
     min-height: 600px;
-    margin-left: 220px;
+    margin-left: 200px;
 }
 
 .App .Empty {
